@@ -1,6 +1,6 @@
 import { GEO_API_URL } from "./configs";
 
-async function FetchData(inputValue) {
+export async function FetchData(inputValue) {
   const geoApiOptions = {
     method: "GET",
     headers: {
@@ -29,4 +29,3 @@ async function FetchData(inputValue) {
     console.error(error);
   }
 }
-export default FetchData;
