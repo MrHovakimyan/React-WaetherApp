@@ -28,7 +28,7 @@ Features that are planned to develop in the future:
 
 ## Project demo picture
 
-<img src="./src/media/DemoPic1.png" width=400px height=250px/>
+<img src="./src/media/DemoPic1.png" width=600px height=350px/>
 
 ## Support
 
