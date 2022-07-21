@@ -48,11 +48,12 @@
     justify-content: space-between;
     align-items: center;
     height: 30px;
+    font-weight: 500;
   }
   &-item label:first-child {
-    color: #757575;
+    color: #3d3c3c;
   }
   &-item label:last-child {
-    color: #212121;
+    color: #1c1b1b;
   }
 }

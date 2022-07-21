@@ -4,9 +4,20 @@
   box-sizing: border-box;
 }
 
+#root {
+  background-image: linear-gradient(90deg, #2d6e7098 0%, #2d6e7042 80%),
+    url("../media/bg-photo1.jpg");
+  height: 100vh;
+}
+
 .container {
   max-width: 1080px;
-  margin: 20px auto;
+  margin: 0px auto;
+  padding: 20px 0;
+  &-title {
+    text-align: center;
+    padding-bottom: 5px;
+  }
 }
 
 @import url(./_currentWeather.scss);

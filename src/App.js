@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1 className="container-title">Weather App / 7 days Forecast</h1>
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast} />}
