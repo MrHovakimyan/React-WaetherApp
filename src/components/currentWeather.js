@@ -3,6 +3,7 @@ import React from "react";
 const CurrentWeather = ({ data }) => {
   return (
     <div className="weather">
+      <h2>Weather today</h2>
       <div className="weather-top">
         <div>
           <p className="weather-top-city">{data.city}</p>
